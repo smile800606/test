@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#64B5F6">
+
+    <TextView
+        android:text="Java"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#E8EAF6"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:text="Android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:background="#E8EAF6"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:text="Beginner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:background="#E8EAF6"
+        android:textSize="24sp"/>
+
+</LinearLayout>

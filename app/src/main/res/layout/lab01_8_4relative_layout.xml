@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_red_light">
+
+    <ImageView
+        android:id="@+id/image_view1"
+        android:src="@drawable/naruto_sd"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_margin="16dp"/>
+<TextView
+    android:text="火影忍者疾風傳"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+
+    android:background="#03A9F4"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_toRightOf="@id/image_view1"
+    android:textSize="24sp"
+    android:gravity="center"/>
+<TextView
+    android:text="通靈之術"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+
+    android:background="#03A9F4"
+    android:layout_marginRight="16dp"
+    android:layout_toRightOf="@id/image_view1"
+    android:layout_alignBottom="@id/image_view1"
+    android:textSize="24sp"
+    android:gravity="center"/>
+
+</RelativeLayout>
+</LinearLayout>

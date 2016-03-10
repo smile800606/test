@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="12dp"
+    android:paddingLeft="12dp"
+    android:background="@android:color/holo_red_light">
+
+<ImageView
+   android:src="@drawable/sasuke"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    />
+
+    <TextView
+        android:text="NEW Message!"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="#E3F2FD"
+        android:background="#0D47A1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

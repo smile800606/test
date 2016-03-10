@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:text="Tom"
+    android:id="@+id/Tom"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="36sp"
+
+    android:gravity="center"
+    android:background="#BA68C8"
+    android:layout_marginTop="16dp"
+    android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="Kevin"
+        android:id="@+id/Kevin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:background="#BA68C8"
+        android:layout_marginTop="16sp"
+        android:layout_marginRight="16sp"
+        android:layout_toLeftOf="@+id/Tom"/>
+
+        <TextView
+            android:text="John"
+            android:id="@+id/John"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:background="#BA68C8"
+            android:layout_marginTop="16sp"
+            android:layout_marginLeft="16sp"
+            android:layout_toRightOf="@+id/Tom"/>
+
+<TextView
+    android:text="Amy"
+    android:id="@+id/Amy"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="36sp"
+    android:background="#F06292"
+    android:layout_margin="16sp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+    <TextView
+        android:text="Jimmy"
+        android:id="@+id/Jimmy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:background="#F06292"
+        android:layout_margin="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/Amy"/>
+
+    <TextView
+        android:text="Steve"
+        android:id="@+id/Steve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:background="#F06292"
+        android:layout_margin="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/Jimmy"/>
+<TextView
+    android:text="Linda"
+    android:id="@+id/Linda"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="36sp"
+    android:background="#E57373"
+    android:layout_margin="16sp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentBottom="true"
+    android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+  <TextView
+      android:text="Coco"
+      android:id="@+id/Coco"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="36sp"
+      android:background="#E57373"
+      android:layout_margin="16sp"
+      android:layout_alignParentBottom="true"
+      android:layout_toRightOf="@+id/Linda"/>
+
+    <TextView
+        android:text="Maria"
+        android:id="@+id/Maria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:background="#E57373"
+        android:layout_margin="16sp"
+        android:layout_above="@+id/Linda"/>
+
+    </RelativeLayout>

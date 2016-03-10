@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <ImageView
+        android:src="@drawable/naruto"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:scaleType="fitStart" />
+    <TextView
+        android:text="火影忍者"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="#2196F3"/>
+    <TextView
+        android:text="日語"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#E8EAF6"
+        android:gravity="center"/>
+
+</LinearLayout>
